@@ -89,8 +89,8 @@ son iguales?**
  valorFinal <- 20              <Se enumera una lista desde el 5 hasta el 20
 
 [1] 20 19 18 17 16 15 14 13 12 11 10  9  8  7  6  5
-> valorInicial <- 20
-> valorFinal <- 5              <Se enumera una lista desde el 20 hasta al 5
+ valorInicial <- 20
+ valorFinal <- 5              <Se enumera una lista desde el 20 hasta al 5
 
  length(listaDeNumeros):3
 [1] 11 10  9  8  7  6  5  4  3   <Se enumera una lista desde el 11 hasta el 3
@@ -131,9 +131,9 @@ Determinar_Ganador<-function(total,votosSI,votosNO){
 
 Determinar_Ganador(100,125,70)
 [1] "votaciones alteradas"
-> Determinar_Ganador(100,50,45)
+Determinar_Ganador(100,50,45)
 [1] "Si"
-> Determinar_Ganador(100,25,10)
+Determinar_Ganador(100,25,10)
 [1] "No"
 
 **####Ejercicio 10: Una función es un grupo de instrucciones que toma valores de entradas para
@@ -142,25 +142,25 @@ generar un resultado. Pruébelo con operaciones resta,multiplicación, división
 Suma<-function(a,b){
 +   a+b
 + }
-> Suma(3,4)
+ Suma(3,4)
 [1] 7
 
 Resta<-function(a,b){
 +   a-b
 + }
-> Resta(7,5)
+ Resta(7,5)
 [1] 2
 
 Multiplicar<-function(a,b){
 +   a*b
 + }
-> Multiplicar(4,15)
+ Multiplicar(4,15)
 [1] 60
 
  Dividir<-function(a,b){
 +   a/b
 + }
-> Dividir(8,2)
+ Dividir(8,2)
 [1] 4
 
 **####Ejercicio 11: Cree dos funciones, una que genere la diferencia entre las áreas de dos
@@ -169,13 +169,13 @@ rectángulos y otra de las áreas de un círculo:**
 AreaCirculo<-function(radio1,radio2){
 +   ((pi*radio1^2)-(pi*(radio2^2)))
 + }
-> AreaCirculo(16,5)
+ AreaCirculo(16,5)
 [1] 725.7079
 
 AreaRectangulo<-function(base1,altura1,base2,altura2){
 +   ((base1*altura1)-(base2*altura2))
 + }
-> AreaRectangulo(50,10,25,5)
+ AreaRectangulo(50,10,25,5)
 [1] 375
 
 **####Ejercicio Opcional: Ejecute el siguiente código y diga cuales son las ventajas y desventajas de hacer un loop con lista o rango**
