@@ -1,6 +1,7 @@
 # Tarea_3
 
 listaDeNumeros <- list(2,5,6,2,1,5,6,10,11,20,15)
+
 listaDeNumeros[5]
 [[1]]
 [1] 1 Debido a que el 5to numero en la lista es el "1"
@@ -13,15 +14,15 @@ listaDeNumeros[0]
 list() Debido a que el 0 no se encuentra dentro de la lista
 
 
-> listaDeNumeros[15]
+listaDeNumeros[15]
 [[1]]
 NULL Debido a que no existe una posicion n°15 dentro de la lista
 
-> listaDeNumeros[9] 
+listaDeNumeros[9] 
 [[1]]
 [1] 11 Debido a que el 9no numero en la lista es 11
 
-> listaDeNumeros[-3]
+listaDeNumeros[-3]
 Quita el 3er numero de la lista y arroja los demás.
 
 **####Ejercicio 2: A continuación se le presenta la función unlist, la cual se puede usar de la
@@ -29,35 +30,35 @@ siguiente manera: unlist(listaDeNumeros[5]) ¿Qué diferencia existe entre usar 
 y cómo cree ud que le podría ayudar esta función?, pista: experimente usando el
 condicional if**
  
- unlist(listaDeNumeros[5])
+unlist(listaDeNumeros[5])
 [1] 1 arroja el valor el 5to numero de la lista.
 
 if(listaDeNumeros[5]>0){
-+ print("SE CUMPLE")
-+ }
+ print("SE CUMPLE")
+ }
 [1] "SE CUMPLE" Debido a que el 5to numero de la lista es mayor que 0.
 
 if(listaDeNumeros[6]>3){
-+ print("SE CUMPLE")
-+ }
+ print("SE CUMPLE")
+ }
 [1] "SE CUMPLE" Debido a que el 6to numero de la lista es mayor que 3.
 
 if(listaDeNumeros[8]>4){
-+ print("SE CUMPLE")
-+ }
+ print("SE CUMPLE")
+ }
 [1] "SE CUMPLE" Debido a que el octavo numero en la lista es mayor que 4.
 
 if(listaDeNumeros[5]+1>0){
-+ print(“SE CUMPLE”)
+ print(“SE CUMPLE”)
 Error: unexpected input in:
 "if(listaDeNumeros[5]+1>0){
 print(“"
-> }
+ }
 Error: unexpected '}' in "}" Presenta un error en la escritura.
 
 if(unlist(listaDeNumeros[5])+1>0){
-+   print("SE CUMPLE")
-+ }
+   print("SE CUMPLE")
+ }
 [1] "SE CUMPLE"
 
 **####Ejercicio3: ¿Qué pasa cuando realizamos la siguiente acción: listaDeNumeros[5] <- 12**
@@ -69,7 +70,7 @@ funcione con el ejemplo que estamos trabajando (listaDeNumeros)? ¿qué da como
 resultado?**
 
 length(listaDeNumeros)
-[1] 11 Debido a que el largo de la lista son 11 digitos.
+[1] 11       Debido a que el largo de la lista son 11 digitos.
 
 **####Ejercicio 5: Para generar secuencias se tiene un valor inicial y un valor final, donde ambos
 valores son enteros, para el ejemplo, y la sintaxis en R es la siguiente:
@@ -81,11 +82,11 @@ son iguales?**
 
  5:20
  [1]  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20
-> listaDeNumeros[5] <- 12
-> length(listaDeNumeros)
+ listaDeNumeros[5] <- 12
+ length(listaDeNumeros)
 [1] 11
-> valorInicial <- 5 
-> valorFinal <- 20        Se enumera una lista desde el 5 hasta el 20
+ valorInicial <- 5 
+ valorFinal <- 20        Se enumera una lista desde el 5 hasta el 20
 
 [1] 20 19 18 17 16 15 14 13 12 11 10  9  8  7  6  5
 > valorInicial <- 20
