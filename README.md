@@ -130,8 +130,11 @@ Determinar_Ganador<-function(total,votosSI,votosNO){
 }
 
 Determinar_Ganador(100,125,70)
-Determinar_Ganador(100,50,45)
-Determinar_Ganador(100,25,10)
+[1] "votaciones alteradas"
+> Determinar_Ganador(100,50,45)
+[1] "Si"
+> Determinar_Ganador(100,25,10)
+[1] "No"
 
 **####Ejercicio 10: Una función es un grupo de instrucciones que toma valores de entradas para
 generar un resultado. Pruébelo con operaciones resta,multiplicación, división.**
