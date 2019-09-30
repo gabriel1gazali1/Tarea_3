@@ -4,8 +4,11 @@ listaDeNumeros[5]
 ####Ejercicio1####
 
 listaDeNumeros[0]
+
 listaDeNumeros[15]
+
 listaDeNumeros[9] 
+
 listaDeNumeros[-3]
 
 ####Ejercicio2####
